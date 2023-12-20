@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+height: 1300px;
+background-color: #ffffff;
+}
+.up{
+    width: inherit;
+    height: 70%;
+    background-image: url(Put\ Your\ Image.png);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+
+}   
+.shadow{
+    width: inherit;
+    height: 100%;
+    opacity: 0.802;
+    background-color: #000000;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+}
+.header{
+    width: inherit;
+    height: 30%;
+    display: flex;
+
+}
+.logo {
+    width: 40%;
+    height: inherit;
+    
+}
+.logo1 {
+    display: flex;
+    width: 180px;
+    height: 70px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    opacity: 1.2;
+
+}
+.logo2{
+    width: 120px;
+    height: 50px;
+    background-color: #000000;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.pl{
+  
+    margin-left: 10px;
+   
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 20px;
+
+}
+.link{
+    width: 60%;
+    height: inherit;
+}
+.link2{
+    margin-top: 70px;
+
+}
+
+a{
+    
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-weight: 200;
+    color: #ffffff;
+    text-decoration: none;
+   
+}
+.home{
+    text-decoration: underline;
+    color: rgb(255, 106, 0);
+    font-size: 25px;
+}
+.content{
+    width: 100%;
+    height: 70%;
+    color: #ffffff;
+}
+.cont12{
+    width: inherit;
+    height: 60%;
+
+    
+}
+
+.cout21{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.p1{
+    width: inherit;
+    font-size: 40px;
+    font-family:  Calibri;
+    font-weight: 900;
+    color: whitesmoke;
+    text-align: center;
+}
+.p2{
+    width: inherit;
+    font-size: 100px;
+    font-family:  Calibri;
+    font-weight: 800;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p3{
+    width: inherit;
+    font-size: 10px;
+    font-family:  Calibri;
+    font-weight: 50;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+.cout22{
+    width: inherit;
+    height: 40%;
+    display: flex;
+}
+.b1{
+    background-color: red;
+    opacity: 1;
+    border: 2px solid whitesmoke;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-family:  Calibri;
+    font-weight: 600;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 580px;
+    border-radius: 10px;
+}
+.b2{
+    background: none;
+
+    border: 2px solid whitesmoke;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-family:  Calibri;
+    font-weight: 600;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.i{
+    width: inherit;
+    height: 10px;
+    display: flex;
+}
+#i1{
+    color: tomato;
+    margin-left: 1420px;
+   font-size: x-large;
+}
+#i2{
+    color: tomato;
+margin-left: 20px;
+   font-size: x-large;
+}
+
+
+
+
+/* ########################################=======================footer section sarted ###################=================== */
+
+
+.down{
+    width: inherit;
+    height:30% ;
+}
+svg{
+    margin-left: 705px;
+    margin-top: -60px;
+    stroke-width: 5px;
+    stroke-opacity: 0.500;
+    stroke: #000000;
+    fill: #ffffff;
+    height: 30%;
+}
+#i3{
+    color: tomato;
+   font-size: 50px;
+   margin-left: -78px;
+   transform: translateY(-45px);
+   opacity: 0.800;
+}
+.footer{
+    width: inherit;
+    height: 70%;
+    display: flex;
+    /* margin-left: 20px; */
+    justify-content: space-around;
+}
+.f1{
+    width: 200px;
+    height: 400px;
+}
+.f12{
+    width: inherit;
+    height: 30%;
+
+}
+.f13{
+    width: inherit;
+    height: 70%;
+}
+.f2{
+    width: 200px;
+    height: 400px;
+}
+.f22{
+    width: inherit;
+    height: 30%;
+}
+.f23{
+    width: inherit;
+    height: 70%;
+}
+#i5{
+    color: rgba(205, 92, 92, 0.485);
+    font-size: 150px;
+    margin-top: -20px;
+    margin-left: 40px;
+
+    
+}
+#i6{
+    color: rgba(205, 92, 92, 0.485);
+    font-size: 150px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+#i7{
+    color: rgba(205, 92, 92, 0.485);
+    font-size: 150px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+#i8{
+    color: rgba(205, 92, 92, 0.485);
+    font-size: 150px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+.f3{
+    width: 200px;
+    height: 400px;
+    
+}
+.f32{
+    width: inherit;
+    height: 30%;
+}
+.f33{
+    width: inherit;
+    height: 70%;
+}
+.f4{
+    width: 200px;
+    height: 400px;
+    
+}
+.f41{
+    width: inherit;
+    height: 30%;
+}
+.f42{
+    width: inherit;
+    height: 70%;
+}
+.f122{
+    margin-left: 85px;
+    margin-top: -80px;
+    
+
+}
+.img1{
+    width: 30px;
+    height: 20px;
+
+}
+.img2{
+    width: 30px;
+    height: 30px;
+
+}
+.f222{
+    margin-left: 85px;
+    margin-top: -80px;
+    
+}
+.img3{
+    width: 30px;
+    height: 40px;
+
+}
+.f322{
+    margin-left: 85px;
+    margin-top: -85px;
+    
+}
+.img4{
+    width: 30px;
+    height: 40px;
+
+}
+.f422{
+    margin-left: 85px;
+    margin-top: -85px;
+    
+}
+.f1h{
+    font-size: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #e74c3c;
+font-weight: 600;
+font-family: "Open Sans";
+margin-top: 20PX;
+margin-left: 20px;
+}
+.line{
+    height: 2px;
+    width: 40px;
+    background-color: #000000;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+.lorem{
+    width: inherit;
+height: 70px;
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 20px;
+color: #999999;
+font-weight: 300;
+font-family: "Source Sans Pro";
+text-align: center;
+margin-top: 20px;
+margin-right: 10px;
+text-align: justify
+}
+.f2h{
+    font-size: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #6a6a6a;
+font-weight: 600;
+font-family: "Open Sans";
+margin-top: 20PX;
+margin-left: 20px;
+}
