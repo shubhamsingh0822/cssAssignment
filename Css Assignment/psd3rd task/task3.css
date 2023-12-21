@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #000000; */
+    background-color: #e74c3c;
+}
+.main{
+    width: 100%;
+    height: 740px;
+    background-color: #e74c3c;
+  
+}
+/* ########################################################## img clip path #############################################################  */
+.f {
+    opacity: 0.750;
+width: 100%;
+height: inherit;
+background-color: #000000;
+background-image: url(Put\ Your\ Image.png);
+transform: translateY(-730PX);
+/* clip-path: polygon(0% 80%,5% 79%,10% 77.5%,15% 76%, 20% 74.5%,25% 72%,30% 70.5%,35% 68%,40% 66.5%,45% 63%,50% 61.5%,55% 62%,85% 45%,100% 20%,100% 100%,0% 100%); */
+/* clip-path: polygon(100% 81%, 100% 99%, 27% 100%, 0% 0%, 0% 70%, 10% 63%, 31% 53%, 44% 50%, 55% 52%, 67% 56%, 78% 57%, 83% 51%, 90% 45%, 100% 25%); */
+/* clip-path: polygon(55% 67%, 40% 67%, 24% 72%, 6% 83%, 0% 90%, 0% 100%, 17% 100%, 46% 100%, 100% 100%, 100% 93%, 100% 42%, 85% 61%, 77% 66%, 68% 69%); */
+
+clip-path: polygon(100% 79%, 100% 100%, 27% 100%, 0% 100%, 0% 89%, 20% 76%, 34% 67%, 52% 64%, 65% 68%, 79% 64%, 87% 59%, 89% 53%, 92% 45%, 100% 24%);
+
+}
+
+/* ################################################# opesity clip path #################################################################### */
+.f1{
+    width: 100%;
+    height: inherit;
+    background-image: url(Put\ Your\ Image.png);
+    background-repeat: no-repeat;
+    /* clip-path: polygon(0% 0%,100% 0%,100% 21%,85% 45.5%,75% 65.5%,65% 72.5%,60% 78.5%,50% 73.5%,40% 67.5%,30% 69.5%,20% 70.5%,15% 73.5%,10% 75.5%,5% 77.5%,0% 80.5%); */
+    clip-path: polygon(100% 20%, 100% 0%, 27% 0%, 0% 0%, 0% 90%, 20% 77%, 34% 68%, 52% 65%, 65% 69%, 79% 65%, 87% 60%, 89% 54%, 92% 46%, 100% 25%);
+}
+.c1{
+    width: 57px;
+height: 56px;
+border-radius: 28px;
+background-color: #ffffff;
+transform: translateY(-1000px);
+background-image: url(Ellipse\ 1.svg);
+margin-left: 480px;
+}
+.c2{
+    width: 57px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    transform: translateY(-1090px);
+    background-image: url(Ellipse\ 2.svg);
+    margin-left: 755px;
+}
+.c3{
+    width: 57px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    transform: translateY(-1105px);
+    background-image: url(Ellipse\ 3.svg);
+    margin-left: 980px;
+}
+.c4{
+    width: 57px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    transform: translateY(-1195px);
+    background-image: url(Ellipse\ 4.svg);
+    margin-left: 1130px;
+}
+.c5{
+    width: 57px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    transform: translateY(-1280px);
+    background-image: url(Ellipse\ 1\ \(1\).svg);
+    margin-left: 1290px;
+}
+.p1{
+    width: 300px;
+background: none;
+transform: translate(600px,220px);
+}
+.p2{
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: 700;
+    background: none;
+    font-family: "Source Sans Pro";
+}
+.p3{
+    width: 313px;
+height: 39px;
+font-size: 14px;
+line-height: 29px;
+color: #f4f5f9;
+font-weight: 400;
+font-family: "Open Sans";
+background: none;
+/* text-align: center; */
+transform: translate(560px,230px);
+}
+
+.p4{
+    width: 400px;
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    transform: translate(500px,250px);
+}
+.p5{
+    height: 5px;
+    width: 80px;
+    background-color: #f4f5f9;
+}
+.p6{
+    width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: #e74c3c;
+margin-top: -5px;
+}
+
+.s1{
+    width: 300px;
+    font-size: 24px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #e74c3c;
+font-weight: 600;
+font-family: "Open Sans";
+background: none;
+transform: translate(690px,530px);
+}
+.s2{
+    width: 300px;
+    font-size: 14px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Source Sans Pro";
+background: none;
+transform: translate(735px,550px);
+}
+.s3{
+    width: 2px;
+    height: 70px;
+    background: none;
+    background-color: #ffffff;
+transform: translate(785px,500px);
+}
